@@ -2,12 +2,35 @@
     background-color: #0f5e3f;
 }
 
-.quote {
+.quote-section {
     background-color: #E5E7Eb;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
     color: #1F2937;
     font-size: 36px;
     font-weight: light;
     font-style: italic;
+    
+}
+
+.attribution {
+    color: #1F2937;
+    font-size: 24px;
+    padding-right: 100px;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 .header {
