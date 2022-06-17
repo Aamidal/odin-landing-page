@@ -21,5 +21,5 @@ The Odin Project provided these examples:
 ### Image credits:
 
 
-1. "League of the Road Emblem" by Kara Taylor
+1. "League of the Road Emblem" by [Mhissain](https://github.com/mhissain)
 2. All other images by [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/)
