@@ -71,6 +71,7 @@
 .title-left{
     display: flex;
     flex-flow: column;
+    padding: 16px;
     gap: 16px;
     align-items: flex-start;
 }
