@@ -19,3 +19,11 @@
 .titleleft{
     display: flex;
 }
+
+.titlebar img{
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+}
