@@ -1,5 +1,4 @@
-# odin-landing-page
-## TOP Project 2: Landing Page
+# TOP Project 2: Landing Page
 
 Time to design and style a webpage from scratch! 
 
