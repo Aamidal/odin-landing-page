@@ -10,3 +10,12 @@
     padding: 0;
     margin: 0;
 }
+
+.titlebar{
+    display: flex;
+    justify-content: center;
+}
+
+.titleleft{
+    display: flex;
+}
