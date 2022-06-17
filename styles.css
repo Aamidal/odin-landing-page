@@ -1,5 +1,5 @@
 .header, .titlebar, .footer {
-    background-color: #0f5e3f;
+    background-color: #1F2937;
 }
 
 .quote-section {
@@ -12,9 +12,8 @@
 .quote-box {
     display: flex;
     flex-direction: column;
-    max-width: 40%;
-    justify-content: center;
     align-items: center;
+    max-width: 60%;
 }
 
 .quote {
@@ -22,7 +21,6 @@
     font-size: 36px;
     font-weight: light;
     font-style: italic;
-    
 }
 
 .attribution {
@@ -44,9 +42,15 @@
     font-size: 24px;
 }
 
-.header a, .subtitle, .title-image {
+.header a, .subtitle, .title-image, .footer {
     color: #E5E7Eb;
     font-size: 18px;
+}
+
+.footer {
+    padding: 8px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .headerlinks {
@@ -68,7 +72,6 @@
     display: flex;
     flex-flow: column;
     gap: 16px;
-    max-width: 25%;
     align-items: flex-start;
 }
 
@@ -80,11 +83,12 @@
 
 .title-image {
     display: flex;
-    background-color: black;
+    background-color: #1F2937;
     padding: 10px;
     border-radius: 25%;
-    max-width: 300px;
-    height: auto;
+    max-height: auto;
+    max-width: 250px;
+    flex: 1 1 auto;
 }
 
 .information {
@@ -107,6 +111,7 @@
     flex-wrap: wrap;
     align-content: center;
     gap: 16px;
+    flex: 1 1 0%;
 }
 
 .cards .info {
@@ -121,18 +126,54 @@
     gap: 8px;
 }
 .card img{
-    border: 4px solid #0f5e3f;
+    border: 4px solid #1F2937;
     border-radius: 25%;
     height: auto;
     max-width: 300px;
+}
+.action-box {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.action {
+    background-color: #3882f6;
+    padding: 24px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.call {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subcall {
+    color: #E5E7Eb;
+    font-size: 18px;
 }
 
 a {
     text-decoration: none;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 button {
-    background-color: orange;
+    background-color: #3882f6;
     border: none;
     color: #f9faf8;
     padding: 8px 16px;
@@ -140,4 +181,9 @@ button {
     font-size: 16px;
     text-align: center;
     text-decoration: None;
+}
+
+.right button {
+    border: 2px solid white;
+    border-radius: 15px;
 }
