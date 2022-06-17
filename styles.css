@@ -12,7 +12,8 @@
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 8px;
 }
 
 .logo {
@@ -20,7 +21,7 @@
     font-size: 24px;
 }
 
-.header a, .subtitle {
+.header a, .subtitle, .title-image {
     color: #E5E7Eb;
     font-size: 18px;
 }
@@ -35,11 +36,13 @@
 
 .titlebar{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
 }
 
-.titleleft{
-    display: flex;
+.title-left{
+    width: 400px;
 }
 
 .title {
@@ -48,8 +51,9 @@
     font-weight: extra-bold;
 }
 
-.titlebar img{
-    align-self: center;
+.title-image {
+    background-color: grey;
+    padding: 40px;
 }
 
 a {
