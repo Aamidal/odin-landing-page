@@ -12,3 +12,6 @@
 
 [Image by Alexander Antropov from Pixabay](https://pixabay.com/photos/black-hole-wormhole-galaxy-space-6274731/)
 
+![Image by Kara Taylor](./images/league.png)
+
+Image by Kara Taylor
